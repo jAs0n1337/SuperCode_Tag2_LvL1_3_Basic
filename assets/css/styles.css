@@ -1,0 +1,35 @@
+li {
+    list-style: none;
+}
+
+a {
+    color: red;
+    /* font-size: 20px; */
+}
+
+nav {
+    background-color: grey;
+}
+
+article {
+    background-position: left;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.unsplash.it/400/400");
+}
+
+p a {
+    text-decoration: none;
+}
+
+span {
+    color: red;
+}
+
+article:nth-of-type(2) {
+    background-image: url("https://www.unsplash.it/600/600");
+}
+
+article:nth-of-type(3) {
+    background-image: url("https://www.unsplash.it/800/600");
+}
